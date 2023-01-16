@@ -1,0 +1,19 @@
+/* adjuscent sibling combinator */
+h2+p {
+    font-weight: bold;
+}
+
+/* General Sibling Combinator */
+h2 ~ p {
+    color: red;
+}
+
+/* Child Combinator */
+section > p {
+    background-color: aqua;
+}
+
+/* Descendant Combinator */
+section p {
+    font-family: monospace;
+}

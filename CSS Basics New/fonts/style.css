@@ -1,0 +1,24 @@
+/*
+1 vh = 1/100 of window height
+
+*/
+
+
+#para1 {
+    font-size: 30px;
+}
+
+#para2 {
+    /* font-family: monospace; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#para3 {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#para4 {
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}

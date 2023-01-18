@@ -1,0 +1,35 @@
+/*
+
+Note : 
+Precedence 1 :
+id > class > element > *
+
+Precedence 2 :
+1. Inline
+2. Internal
+3. External
+
+
+Part 1 :
+(i) '*' -> applies to all
+(ii) 'div', 'p' -> applies to that type of element
+(iii) '.abc' -> applies to class 'abc'
+(iv) '#abc' -> applies to id 'abc'
+
+*/
+
+* {
+    background-color: lightcyan;
+}
+
+.cl1 {
+    background-color: lightcoral;
+}
+
+#id1 {
+    background-color: lightgreen;
+}
+
+div {
+    background-color: lightseagreen;
+}

@@ -1,3 +1,19 @@
 .one {
     transform: scale(2, 0.5);
 }
+
+.two {
+    transform: rotateZ(10deg);
+}
+
+.three {
+    transform: translateX(50px) translateY(40px);
+}
+
+.four {
+    transform: rotate(45deg) translateX(200PX);
+}
+
+.five {
+    transform: skewX(40deg);
+}

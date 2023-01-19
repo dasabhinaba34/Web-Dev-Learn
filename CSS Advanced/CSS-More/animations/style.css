@@ -1,0 +1,47 @@
+.container {
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: darkcyan;
+    border: solid black 1px;
+    display: inline-block;
+
+    animation: bounce 2s infinite;
+}
+
+.one {
+    animation-timing-function: ease-in;
+    /* ease-in means "starts slow ends fast" */
+}
+.two {
+    animation-timing-function: ease-out;
+    /* ease-out means "starts fast ends slowly" */
+}
+.three {
+    animation-timing-function: linear;
+}
+.four {
+    animation-timing-function: ease-in-out;
+    /* ease-in-out means "starts slow, becomes fast at the middle,  ends slow" */
+}
+
+
+@keyframes bounce {
+    0% {
+        /* transform: scale(2); */
+    }
+    50% {
+        transform: translateY(300px);
+        /* background-color: deeppink; */
+    }
+    100% {
+
+    }
+}
